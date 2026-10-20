@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    background-color: #fafafa
+}
+
+h3 {
+    color: #c9c9c9;
+    margin: 20px;
+}
+
+hr {
+    width: 30%;
+    margin-left: -10px;
+    margin-right: auto;
+    border: none;
+    height: 1px;
+    background-color: #9c9c9c;
+}
+
+.licht {
+    width: 30%;
+    margin-left: -10px;
+    margin-right: auto;
+    border: none;
+    height: 1px;
+    background-color: #c2c2c2;
+}
+
+nav a {
+    display: table;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    padding: 0.5em;
+}
+
+main div p {
+    display: flex;
+    margin: -240px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+main div:not(.link) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    bottom: 0;
+    left: 0;
+    margin: -20px;
+}
+
+main div img {
+    display: flex;
+    align-items: flex-end;
+    width: 40px;
+    bottom: 0;
+    margin: 20px;
+    margin-top: 520px;
+}
+
+h5 {
+    position: absolute;
+    top: 40px;
+    right: 175px;
+    background-color: #bbe1f0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.chat {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    right: 340px;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chat1 {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    right: 340px;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.link {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 350px;
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    left: 420px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    gap: 0;
+    height: auto;
+    min-height: 0;
+}
+
+.link a {
+    margin: 8px 0;
+    padding: 0;
+    color: black;
+    display: block;
+    line-height: 1.4;
+    transition: 350ms ease;
+}
+
+footer {
+    position: absolute;
+    top: 0;
+    left: 29.45%;
+    height: 100px;
+}
+
+.verticaal {
+    width: 1px;
+    height: 920px;
+    background-color: #9c9c9c;
+}
+
+a:hover {
+    background: #c2c2c2;
+    transition: background-color 250ms ease;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 260px;
+    transition: 250ms ease;
+} 
+
+a:active {
+    background: #9c9c9c;
+}
+
